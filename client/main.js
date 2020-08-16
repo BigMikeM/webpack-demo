@@ -1,7 +1,7 @@
-import click from './game'
+import clicker from './game'
 const button = document.getElementById("button");
 
 button.addEventListener('click', function(e) {
-    click();
+    clicker();
 })
 
