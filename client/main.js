@@ -1,4 +1,4 @@
-const click = require('./game')
+import click from './game'
 const button = document.getElementById("button");
 
 button.addEventListener('click', function(e) {

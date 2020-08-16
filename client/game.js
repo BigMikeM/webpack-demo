@@ -21,7 +21,7 @@
     if (numTimesClicked === 10) win();
   }
 
-  module.exports = click;
+  export default click;
 
   //what do we want to return so we can access the functions we need in our game
   /*return {
